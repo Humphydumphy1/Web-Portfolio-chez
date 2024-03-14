@@ -721,11 +721,6 @@ h3.my-profession {
     padding: 0 50px;
 }
 /*_______________________________Media Queries_______________________________*/
-@media(min-width:1200px){
-	.blogimg {
-		height:240px; width:450px;
-	}
-}
 @media(max-width:1199px){
     .aside{
         left: -270px;
@@ -749,9 +744,6 @@ h3.my-profession {
     .about .about-content .personal-info .info-item p span {
         display: block;
     }
-	.blogimg {
-		height:240px; width:400px;
-	}	
 }
 @media(max-width:991px){
     .portfolio .portfolio-item,
@@ -776,22 +768,15 @@ h3.my-profession {
         width: 50px;
         margin-left: -5px;
     }
-
-    .blog .blog-item{
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
     
     .home .home-info{
         flex: 0 0 100%;
         max-width: 100%;
     }
     .home .home-img{
-        display: none;
+        display: flex;
     }
-	.blogimg {
-		height:240px; width:350px;
-	}
+
 }
 @media(max-width:767px){
     
@@ -802,10 +787,6 @@ h3.my-profession {
     .about .about-content .skills,
     .about .about-content .personal-info,
     .about .about-content .personal-info .info-item,
-    .blog .blog-item{
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
 
     .contact .contact-form .col-6,
     .contact .contact-info-item {
@@ -817,8 +798,4 @@ h3.my-profession {
         flex: 0 0 33.33%;
         max-width: 33.33%;
     }
-
-    .blogimg {
-		height:150px; width:250px;
-	}
 }
